@@ -1,6 +1,6 @@
 # serverinfo.py
 # REGEX used for server info
-
+```
 #!/usr/bin/python3
 #!/bin/bash/python3
 
@@ -73,3 +73,4 @@ match = re.search("ether (\w{1,2}\:\w{1,2}\:\w{1,2}\:\d{1,2}\:\d{1,2}\:\d{1,2})"
 if match:
     macc = match.group(1)
     print("mac " + macc)
+```
