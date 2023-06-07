@@ -9,7 +9,7 @@ import subprocess
 import re
 
 hostname = subprocess.run("hostname",capture_output=True,text=True)
-print(hostname.stdout.strip())
+print("hostname " + hostname.stdout.strip())
 
 # cpu
 cpu = subprocess.run("lscpu",capture_output=True,text=True)
